@@ -1,4 +1,12 @@
 import React from "react";
+import maskGroup from "../../assets/images/Mask Group.png";
+import maskGroup1 from "../../assets/images/Mask Group-1.png";
+import maskGroup2 from "../../assets/images/Mask Group-2.png";
+import maskGroup3 from "../../assets/images/Mask Group-3.png";
+import maskGroup4 from "../../assets/images/Mask Group-4.png";
+import maskGroup5 from "../../assets/images/Mask Group-5.png";
+import maskGroup6 from "../../assets/images/Mask Group-6.png";
+import maskGroup7 from "../../assets/images/Mask Group-7.png";
 
 export default function Trending() {
   return (
@@ -11,8 +19,8 @@ export default function Trending() {
           <div className="row">
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#E6F3F5" }}>
-                <img src="/assets/images/Mask Group.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Pizza Paperoni</p>
                   <p style={{ color: "#8BAC3E" }}>Pizza</p>
                   <div className="rating">
@@ -82,8 +90,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#E6F3F5" }}>
-                <img src="/assets/images/Mask Group-1.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup1} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Pizza Meat</p>
                   <p style={{ color: "#8BAC3E" }}>Pizza</p>
                   <div className="rating">
@@ -153,8 +161,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#EAEEFA" }}>
-                <img src="/assets/images/Mask Group-2.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup2} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Doner Kebab</p>
                   <p style={{ color: "#8BAC3E" }}>Kebab</p>
                   <div className="rating">
@@ -224,8 +232,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#F9EEF3" }}>
-                <img src="/assets/images/Mask Group-3.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup3} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Salmon Roll</p>
                   <p style={{ color: "#8BAC3E" }}>Salmon</p>
                   <div className="rating">
@@ -295,8 +303,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#F0FEEB" }}>
-                <img src="/assets/images/Mask Group-4.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup4} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Cupcake Choco</p>
                   <p style={{ color: "#8BAC3E" }}>Cupcake</p>
                   <div className="rating">
@@ -366,8 +374,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#F3F7D9" }}>
-                <img src="/assets/images/Mask Group-5.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup5} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Doughnut Milk</p>
                   <p style={{ color: "#8BAC3E" }}>Doughnut</p>
                   <div className="rating">
@@ -437,8 +445,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#F3F7D9" }}>
-                <img src="/assets/images/Mask Group-6.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup6} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Doughnut Unicorn</p>
                   <p style={{ color: "#8BAC3E" }}>Doughnut</p>
                   <div className="rating">
@@ -508,8 +516,8 @@ export default function Trending() {
             </div>
             <div className="col-md-3 my-2">
               <div className="card p-3" style={{ background: "#EAEEFA" }}>
-                <img src="/assets/images/Mask Group-7.png" className="w-50" />
-                <div className="card-body">
+                <img src={maskGroup7} className="w-50" />
+                <div className="content">
                   <p style={{ fontSize: 23 }}>Kathi Kebab</p>
                   <p style={{ color: "#8BAC3E" }}>Kebab</p>
                   <div className="rating">

@@ -1,9 +1,4 @@
 import React from "react";
-import cupcake from "../../assets/images/cupcake.png";
-import pizza from "../../assets/images/pizza.png";
-import kebab from "../../assets/images/kebab.png";
-import salmon from "../../assets/images/salmon.png";
-import doughnut from "../../assets/images/doughnut.png";
 
 export default function Category() {
   return (
@@ -15,7 +10,7 @@ export default function Category() {
           <div className="row justify-content-center">
             <div className="col-md-2 my-2">
               <div className="card" style={{ background: "#F0FEEB" }}>
-                <img src={cupcake} />
+                <img src="/assets/images/cupcake.png" />
                 <div className="card-body" style={{ marginTop: 100 }}>
                   <p style={{ fontSize: "16px" }}>
                     <b>Cupcake</b>
@@ -26,7 +21,7 @@ export default function Category() {
             </div>
             <div className="col-md-2 my-2">
               <div className="card" style={{ background: "#DDE9EB" }}>
-                <img src={pizza} />
+                <img src="/assets/images/pizza.png" />
                 <div className="card-body" style={{ marginTop: 100 }}>
                   <p style={{ fontSize: "16px" }}>
                     <b>Pizza</b>
@@ -37,7 +32,7 @@ export default function Category() {
             </div>
             <div className="col-md-2 my-2">
               <div className="card" style={{ background: "#EAEEFA" }}>
-                <img src={kebab} />
+                <img src="/assets/images/kebab.png" />
                 <div className="card-body" style={{ marginTop: 100 }}>
                   <p style={{ fontSize: "16px" }}>
                     <b>Kebab</b>
@@ -48,7 +43,7 @@ export default function Category() {
             </div>
             <div className="col-md-2 my-2">
               <div className="card" style={{ background: "#F9EEF3" }}>
-                <img src={salmon} />
+                <img src="/assets/images/salmon.png" />
                 <div className="card-body" style={{ marginTop: 100 }}>
                   <p style={{ fontSize: "16px" }}>
                     <b>Salmon</b>
@@ -59,7 +54,7 @@ export default function Category() {
             </div>
             <div className="col-md-2 my-2">
               <div className="card" style={{ background: "#F3F7D9" }}>
-                <img src={doughnut} />
+                <img src="/assets/images/doughnut.png" />
                 <div className="card-body" style={{ marginTop: 100 }}>
                   <p style={{ fontSize: "16px" }}>
                     <b>Doughnut</b>

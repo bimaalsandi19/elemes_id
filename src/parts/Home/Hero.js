@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../../assets/images/hero-img.png";
 
 export default function Hero() {
   return (
@@ -27,13 +28,13 @@ export default function Hero() {
           </div>
           <div className="col-md-6">
             <div className="hero-img">
-              <img src="/assets/images/hero-img.png" />
+              <img src={heroImg} />
               {/* <img src="/assets/images/image.png" /> */}
             </div>
             <div className="panel">
               <div className="card">
                 <div className="panel-img">
-                  <img src="/assets/images/hero-img.png" />
+                  <img src={heroImg} />
                 </div>
                 <div className="panel-text">
                   <p style={{ fontSize: "14px" }}>

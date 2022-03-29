@@ -114,8 +114,9 @@ p {
   border-radius: 30px !important;
   box-shadow: 4px 4px 4px rgb(212, 212, 212);
 }
-.trending .card .card-body {
+.trending .card .content {
   line-height: 15px;
+  margin-top: 10px;
 }
 .footer {
   background: #f9fff6;

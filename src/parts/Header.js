@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../assets/images/logo.png";
 
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-sm navbar-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/assets/images/logo.png" width="150px" />
+          <img src={logo} width="150px" />
         </a>
         <button
           className="navbar-toggler"

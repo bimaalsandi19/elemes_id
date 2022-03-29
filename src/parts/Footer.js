@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo.png";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="footer">
         <div className="row">
           <div className="col-md-3 my-2">
-            <img src="/assets/images/logo.png" />
+            <img src={logo} />
             <p className="mt-3">
               Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan, Kecamatan
               Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta
